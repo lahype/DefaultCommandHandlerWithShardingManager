@@ -1,0 +1,25 @@
+{
+  "name": "DefaultCommandHandlerWithShardingManager",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discordjs",
+    "discord-api",
+    "discordbot",
+    "bot",
+    "handler"
+  ],
+  "author": "Thomas Bnt <thomasbnt@protonmail.com>",
+  "license": "GNU GPLv3.0",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "discord.js": "^11.4.2",
+    "enmap": "^4.8.7",
+    "fs": "0.0.1-security",
+    "moment": "^2.24.0"
+  }
+}
