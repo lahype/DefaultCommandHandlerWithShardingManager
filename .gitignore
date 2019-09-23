@@ -1,3 +1,9 @@
+# Configs
+config.json
+
+# JetBrains
+.idea/
+
 # Logs
 logs
 *.log
