@@ -1,9 +1,6 @@
 [![Discord Server](https://flat.badgen.net/badge/Join/Discord%20server/7289DA?icon=discord)](https://thomasbnt.fr/discord/?utm_source=link_github?utm_medium=github)
-[![GNU GENERAL PUBLIC v3 LICENSE](https://flat.badgen.net/github/license/thomasbnt/DefaultCommandHandlerWithShardingManager)](LICENSE)
 
 # Default CommandHandler With Sharding Manager
-
----
 
 ## Install
 Type the following commands into Terminal.

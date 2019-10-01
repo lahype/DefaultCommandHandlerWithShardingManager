@@ -1,4 +1,5 @@
 const Discord = require('discord.js')
+const embed = new Discord.RichEmbed()
 module.exports = async (bot, msg) => {
 
   if (msg.author.bot) return
@@ -12,6 +13,6 @@ module.exports = async (bot, msg) => {
   const cmd = bot.commands.get(command)  
 
   if (!cmd) return
-  cmd.run(bot, msg, args)
+  cmd.run(bot, msg, args, embed)
   
 }
