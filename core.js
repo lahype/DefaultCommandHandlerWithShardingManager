@@ -50,17 +50,17 @@ klaw("./commands/").on("data", (item) => {
 
 function _loadCommand (commandPath, commandName) {
   try {
-    console.log(`Loading Command: ${commandName}`);
-    const props = require(`${commandPath}${path.sep}${commandName}`);
+    console.log(`Loading Command: ${commandName}`)
+    const props = require(`${commandPath}${path.sep}${commandName}`)
     if (props.init) {
-      props.init(bot);
+      props.init(bot)
     }
 
-    bot.commands.set(commandName, props);
+    bot.commands.set(commandName, props)
     
-    return false;
+    return false
   } catch (e) {
-    return `Unable to load command ${commandName}: ${e}`;
+    return `Unable to load command ${commandName}: ${e}`
   }
 };
 
