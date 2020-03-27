@@ -17,7 +17,7 @@ const config = require('./config.json')
 
 const bot = new Discord.Client({
   autoReconnect: true
-});
+})
 
 
 // -------------------- Config --------------------
@@ -62,6 +62,6 @@ function _loadCommand (commandPath, commandName) {
   } catch (e) {
     return `Unable to load command ${commandName}: ${e}`
   }
-};
+}
 
 bot.login(config.token)
