@@ -1,5 +1,5 @@
 const Discord = require('discord.js')
-const embed = new Discord.RichEmbed()
+const embed = new Discord.MessageEmbed()
 module.exports = async (bot, msg) => {
 
   if (msg.author.bot) return

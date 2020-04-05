@@ -2,8 +2,8 @@
 
     @document   : core.js
     @author     : Thomas Bnt <thomasbnt@protonmail.com>
-    @version    : 1.0.0
-    @copyright  : 2019, Thomas Bnt
+    @version    : 1.1.0
+    @copyright  : 2020, Thomas Bnt
     @license    : GNU General Public License v3.0
     @repository : https://github.com/lahype/DefaultCommandHandlerWithShardingManager
 

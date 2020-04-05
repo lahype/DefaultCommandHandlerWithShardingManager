@@ -1,8 +1,12 @@
-[![Discord Server](https://flat.badgen.net/badge/Join/Discord%20server/7289DA?icon=discord)](https://thomasbnt.fr/discord/?utm_source=link_github?utm_medium=github)
+[![Discord](https://img.shields.io/discord/367753345575944221?color=%237289DA&label=Join%20us&logo=Discord&logoColor=white&style=for-the-badge)](https://thomasbnt.fr/discord)
+[![Support me on BMC](https://img.shields.io/badge/Support%20me-☕-orange.svg?style=for-the-badge)](https://www.buymeacoffee.com/thomasbnt)
+[![Twitter Follow](https://img.shields.io/twitter/follow/Hyprimort?color=%231DA1F2&label=Follow%20me&logo=Twitter&style=for-the-badge)](https://twitter.com/Hyprimort)
 
-# Default CommandHandler With Sharding Manager
+# Default CommandHandler with Sharding Manager
 
 ## Install
+**Node.js 12.0.0 or newer is required.**
+
 Type the following commands into Terminal.
 
 ```bash
